@@ -1,9 +1,10 @@
 # Function to simplify W/ & N/ feature statements into single net-positive W/ statement
-
 import functions
 
-# Single prompt
-# TODO: loop so that user can keep going if they have additional features to evaluate
+# Prompt for input (string)
+# W: gross positive tokens (feature codes or feature synonyms)
+# N: negative tokesn (feature codes or feature synonyms)
+# M: model tokens (model codes or model synonyms)
 print("This function will simplify W/ & N/ features into a single combined W/ statement.")
 W = input("W/: ")
 N = input("N/: ")
